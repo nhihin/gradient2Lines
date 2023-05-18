@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.rectangle {
+    width: 200px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    flex-grow: 1;
+      height: 10px; 
+}
+
+
+
+
